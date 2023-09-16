@@ -1,0 +1,137 @@
+/* Reset some default styles for better consistency */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    font-style: calc();
+}
+
+/* Center the container vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the container */
+.container {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    width: 380px;
+}
+
+/* Styles for the centered image */
+.center-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 10%;
+    height: auto;
+}
+
+/* Styles for centered text */
+.center-text {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Styles for buttons */
+.buttons {
+    margin-top: 30px;
+}
+
+.orange-button {
+    background-color: rgb(227, 68, 28);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.blue-button {
+    color: #2222a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style for the feedback button */
+.white-button {
+    /* background-color: white; */
+    color: #2222a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.pet {
+    display: block;
+    margin-block-start: 1.1em;
+    margin-block-end: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rod {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: -2.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rid {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 2.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}
+.feed {
+    display: block;
+    margin-block-start: 6em;
+    margin-block-end: -1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.xtrac {
+    display: block;
+    margin-block-start: 1.6em;
+    margin-block-end: -1.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 10px;
+    color: gray;
+}
+
+.vtrac {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: -0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 10px;
+    color: gray;
+}
+.rod2 {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: -1.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.dashed-line {
+    border: 1px  dashed gray;
+    margin-block-start: 2.5em;
+    margin-block-end: -2.5em;
+   
+  }
